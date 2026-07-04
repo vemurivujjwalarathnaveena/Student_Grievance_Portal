@@ -213,7 +213,5 @@ Student Feedback after Resolution
 👩‍💻 Developed By
 
 Vemuri Vujjwala Rathna Veena
-
-B.Tech – Computer Science & Engineering
-
+B.Tech – Computer Science Engineering
 Vignan Institute of Technology and Science
