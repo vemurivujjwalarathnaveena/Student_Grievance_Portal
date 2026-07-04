@@ -1,0 +1,1083 @@
+body {
+    margin: 0;
+    font-family: Arial;
+
+    background-image: url("https://images.template.net/wp-content/uploads/2016/06/Blue-Backgrounds.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.resolve-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 4px 14px;      /* 👈 reduced width */
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 6px;
+    font-size: 13px;
+    width: auto;            /* 👈 prevents full width */
+    display: inline-block;  /* 👈 keeps it small */
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Transparent Glass Login Box */
+.login-box{
+
+    width:380px;          /* Smaller width */
+
+    padding:35px;         /* Less padding */
+
+    text-align:center;
+
+    background:rgba(12,30,70,.45);
+
+    backdrop-filter:blur(2px);
+    -webkit-backdrop-filter:blur(2px);
+
+    border:1px solid rgba(0,170,255,.45);
+
+    border-radius:18px;
+
+    box-shadow:
+    0 0 18px rgba(0,170,255,.25),
+    0 15px 30px rgba(0,0,0,.25);
+
+    color:white;
+
+    margin-top:70px;
+
+    transition:.3s;
+}
+
+/* Hover Effect */
+.login-box:hover{
+
+    background:rgba(0,25,70,0.28);
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 12px 40px rgba(0,0,0,0.45);
+}
+
+.login-box input{
+
+    width:94%;
+
+    padding:10px;
+
+    margin:12px 0;
+
+    border-radius:10px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    font-size:15px;
+
+    transition:.3s;
+
+    outline:none;
+}
+
+.login-box input::placeholder{
+
+    color:#dddddd;
+
+}
+
+.login-box input:focus{
+
+    border:1px solid #00c6ff;
+
+    box-shadow:0 0 12px rgba(0,198,255,.4);
+
+}
+
+.login-box input::placeholder{
+    color:#f1f1f1;
+}
+
+button{
+
+    width:95%;
+
+    padding:10px;
+
+    margin-top:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:linear-gradient(90deg,#0099ff,#005bea);
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    transform:translateY(-2px);
+
+    background:linear-gradient(90deg,#00b4ff,#006eff);
+
+}
+
+.admin-btn{
+
+background:linear-gradient(90deg,#5f2c82,#49a09d);
+
+}
+
+.admin-btn:hover{
+
+background:linear-gradient(90deg,#6a3093,#4ca1af);
+
+}
+
+.header {
+    background: blue;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: none;   /* ❌ Remove black shade */
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.blue { background: #2d77d9; }
+.orange { background: #f4a623; }
+.green { background: #7cb342; }
+
+.box {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+
+    /* ✅ Background Image */
+    background-image: url('https://thumbs.dreamstime.com/b/untitled-design-414306915.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* ✅ Light overlay effect */
+    background-color: rgba(255, 255, 255, 0.85);
+    background-blend-mode: lighten;
+
+    /* ✅ Readable text */
+    color: black;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.form-box {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+    /* 🌈 Transparent background */
+   background-image: url('https://img.freepik.com/premium-photo/blue-abstract-background_1134661-12397.jpg?semt=ais_user_personalization&w=740&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Card Styles */
+.card {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Pink - Total */
+.blue { 
+    background: #ec407a;   /* Pink */
+}
+
+/* Teal - Pending */
+.orange { 
+    background: #00897b;   /* Teal */
+}
+
+/* Purple - Resolved */
+.green { 
+    background: #8e24aa;   /* Purple */
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.college-name {
+    position: fixed;
+    top: 45px;
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fbc02d; /* Gold color */
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 3px;
+}
+
+/* College Header */
+.college-header{
+
+    position:fixed;
+    top:45px;
+    left:20px;
+
+    z-index:999;
+
+}
+
+/* Logo + VIGNAN in one line */
+.college-top{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+/* Logo */
+.college-logo{
+
+    width:70px;
+
+    height:70px;
+
+}
+
+/* VIGNAN */
+.vignan-title{
+
+    margin:0;
+
+    font-size:72px;
+
+    font-weight:900;
+
+    line-height:1;
+
+}
+
+/* Subtitle starts below logo */
+.college-subtitle{
+
+    margin-top:5px;
+
+    margin-left:85px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:#5b2bbf;
+
+}
+
+/* Affiliation */
+.affiliation{
+
+    margin:5px 0;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    background:linear-gradient(
+        90deg,
+        #1E88E5,
+        #3F51B5,
+        #7B1FA2,
+        #E91E63
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+
+    text-shadow:none;
+}
+
+/* NAAC */
+.naac{
+
+    margin:2px 0;
+
+    font-size:17px;
+
+    font-weight:700;
+
+    background:linear-gradient(
+        90deg,
+        #1E88E5,
+        #3F51B5,
+        #7B1FA2,
+        #E91E63
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+
+    text-shadow:none;
+}
+
+/* Login Box Logo (Same as Header) */
+/* Highlight Login Logo */
+.login-logo {
+    width: 85px;
+    height: 85px;
+
+    display: block;
+    margin: 0 auto 15px;
+
+    padding: 8px;                 /* space for background */
+
+    background: rgba(255,255,255,0.15); /* soft white glow */
+    border-radius: 50%;           /* circle shape */
+
+    box-shadow: 
+        0 0 15px rgba(255,255,255,0.4),
+        0 0 25px rgba(0,150,255,0.3);
+
+    backdrop-filter: blur(4px);   /* modern effect */
+
+    transition: 0.3s ease;
+}
+
+.login-logo:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 0 20px rgba(255,255,255,0.7),
+        0 0 35px rgba(0,150,255,0.5);
+}
+
+/* ===== New Submit Grievance UI ===== */
+
+.new-form-container {
+    width: 420px;
+    max-width: 90%;
+
+    min-height: 480px;
+    max-height: 480px;
+
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+
+    border-radius: 15px;
+    padding: 30px 25px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+
+    color: white;
+}
+
+/* Heading */
+.new-form-container h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+
+/* Subtitle */
+.sub-text {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.new-form-container label {
+    font-weight: bold;
+    margin-top: 12px;
+    display: block;
+}
+
+/* Inputs */
+.new-form-container input,
+.new-form-container textarea,
+.new-form-container select {
+
+    width: 100%;
+    padding: 10px;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    border-radius: 6px;
+    border: none;
+
+    outline: none;
+
+    font-size: 14px;
+}
+
+/* Focus Effect */
+.new-form-container input:focus,
+.new-form-container textarea:focus,
+.new-form-container select:focus {
+
+    box-shadow: 0 0 0 2px #2196f3;
+}
+
+/* Submit Button */
+.new-form-container button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    background: linear-gradient(45deg, #2196f3, #00bcd4);
+
+    border: none;
+    border-radius: 8px;
+
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.new-form-container button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Same width for all fields */
+.new-form-container select,
+.new-form-container input,
+.new-form-container textarea {
+
+    width: 100%;          /* ✅ Same width */
+    max-width: 100%;
+
+    box-sizing: border-box; /* Prevent overflow */
+
+    padding: 10px;
+
+    border-radius: 6px;
+    border: none;
+
+    font-size: 14px;
+}
+
+/* ===== Success Popup Modal ===== */
+
+.success-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 9999;
+}
+
+/* Popup Box */
+.success-box {
+
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+
+    color: white;
+
+    padding: 30px 40px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    width: 350px;
+
+    max-width: 90%;
+
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+
+    animation: popIn 0.4s ease;
+}
+
+/* Title */
+.success-box h2 {
+    margin-top: 0;
+}
+
+/* Button */
+.success-box button {
+
+    margin-top: 20px;
+
+    padding: 10px 25px;
+
+    background: white;
+
+    color: #0072ff;
+
+    border: none;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.success-box button:hover {
+    background: #f1f1f1;
+}
+
+/* Animation */
+@keyframes popIn {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+}
+
+/* Oval Back Button */
+.back-btn {
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    background: white;
+
+    color: #1a237e;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    border-radius: 50px;   /* ✅ Oval shape */
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.back-btn {
+
+    display: inline-block;
+
+    padding: 6px 14px;   /* ✅ more width, less height */
+
+    background: white;
+
+    color: #1a237e;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    border-radius: 50px;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+
+    transition: 0.3s ease;
+}
+
+/* Logout Button Style */
+/* Clean & Visible Logout Button */
+.logout-btn {
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4px 16px;        /* Wider button */
+
+    background: #ffffff;     /* White background */
+
+    color: #1a237e;          /* Dark blue text */
+
+    font-size: 15px;         /* Bigger text */
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+    border: 1px solid #1a237e;  /* Blue border */
+
+    border-radius: 4px;      /* Rectangle */
+
+    cursor: pointer;
+
+    width: auto;
+    height: auto;
+
+    line-height: 1.2;
+
+    box-shadow: none;        /* ❌ Remove black shadow */
+
+    transition: 0.2s ease;
+}
+
+.logout-btn:hover {
+
+    background: #e8eaf6;
+}
+
+/* Status Colors */
+
+.status-text {
+    font-weight: bold;
+}
+
+/* Green for Resolved */
+.status-resolved {
+    color: #2e7d32;   /* Dark Green */
+}
+
+/* Orange for Pending */
+.status-pending {
+    color: #f57c00;   /* Orange */
+}
+
+/* Print Button */
+.print-btn {
+
+    display: inline-block;
+
+    padding: 4px 14px;
+
+    background: #2e7d32;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    border-radius: 4px;
+
+    margin-right: 10px;
+
+    transition: 0.2s ease;
+}
+
+.print-btn:hover {
+    background: #1b5e20;
+}
+
+/* ===== PRINT MODE ===== */
+@media print {
+
+    /* Remove backgrounds */
+    body {
+        background: white !important;
+    }
+
+    /* Hide buttons & links */
+    .header,
+    .print-btn,
+    .resolve-btn,
+    a {
+        display: none !important;
+    }
+
+    /* Remove box styling */
+    .box {
+        box-shadow: none !important;
+        border: none !important;
+        background: white !important;
+    }
+
+    /* Make text black */
+    * {
+        color: black !important;
+    }
+
+    /* Table styling (if any) */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 6px;
+    }
+
+    /* Page margins */
+    @page {
+        margin: 20mm;
+    }
+}
+
+/* Print Header - Hidden on Screen */
+.print-header {
+    display: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Show Header Only While Printing */
+@media print {
+
+    .print-header {
+        display: block;
+    }
+
+    body {
+        background: white !important;
+    }
+
+    .header,
+    .resolve-btn,
+    .print-btn,
+    .back-btn {
+        display: none !important;
+    }
+
+    .box {
+        box-shadow: none !important;
+        background: white !important;
+    }
+
+    * {
+        color: black !important;
+    }
+}
+
+/* Header Button Group */
+.header-buttons {
+    display: flex;
+    gap: 10px;          /* Space between buttons */
+    align-items: center;
+}
+
+/* Registration Success Popup */
+
+.success-modal {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.6);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 9999;
+}
+
+.success-box {
+
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+
+    color: white;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    width: 320px;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
+    animation: pop 0.4s ease;
+}
+
+.success-box h2 {
+    margin-top: 0;
+}
+
+.success-box button {
+
+    margin-top: 20px;
+
+    padding: 8px 20px;
+
+    background: white;
+
+    color: #185a9d;
+
+    border: none;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+@keyframes pop {
+    from {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+/* Mobile View */
+@media only screen and (max-width:768px){
+
+    .college-header{
+
+        top:45px;
+
+        padding:10px;
+
+        display:flex;
+
+        align-items:center;
+
+        gap:10px;
+    }
+
+    .college-logo{
+
+        width:45px;
+
+        height:45px;
+    }
+
+    .college-text{
+
+        flex:1;
+    }
+
+    .college-text h1{
+
+        font-size:22px !important;
+
+        white-space:nowrap;
+
+        line-height:1.2;
+    }
+
+    .affiliation{
+
+        font-size:12px !important;
+    }
+
+    .naac{
+
+        font-size:12px !important;
+    }
+
+}
+
+.college-subtitle{
+
+    margin-top:2px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:linear-gradient(
+        90deg,
+        #356ae6 0%,
+        #5468ff 40%,
+        #673ab7 75%,
+        #9c27b0 100%
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+
+}
+
+/* =======================
+   Full Screen Video
+======================= */
+
+#bg-video{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    z-index:-2;
+}
+
+/* Dark Overlay */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,0.15);
+
+    z-index:-1;
+}
+
+.login-title{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+    color:white;
+}
+
+.login-subtitle{
+
+    font-size:14px;
+
+    margin-bottom:20px;
+
+    color:#d9d9d9;
+}
+@media(max-width:768px){
+
+    .college-text h1{
+        font-size:34px;
+    }
+
+    .college-subtitle{
+        font-size:13px;
+    }
+
+}
+
+.vignan-title{
+
+    font-size:72px !important;
+    font-weight:900 !important;
+    font-family:Arial, sans-serif !important;
+
+    margin:0 !important;
+
+    background-image:url("text-bg.webp") !important;
+    background-repeat:no-repeat !important;
+    background-position:center !important;
+    background-size:cover !important;
+
+    color:transparent !important;
+
+    -webkit-background-clip:text !important;
+    background-clip:text !important;
+    -webkit-text-fill-color:transparent !important;
+
+    display:inline-block !important;
+}
+
+.college-subtitle{
+
+    font-size:22px;
+
+    font-weight:600;
+
+    color:#4c2ea5;
+
+    margin-top:-5px;
+}

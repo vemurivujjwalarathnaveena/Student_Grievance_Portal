@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin:0;">
+
+<!-- Background Wrapper -->
+<div style="
+min-height:100vh;
+background-image: url('https://static.vecteezy.com/system/resources/previews/020/924/632/large_2x/solid-blue-background-images-vectors-free-wallpaper-free-photo.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+">
+
+<!-- Marquee -->
+<marquee behavior="alternate" direction="right"
+style="background:#207cca; color:white;
+padding:10px; font-size:18px; font-weight:bold;">
+New User? Register Here
+</marquee>
+
+<!-- Center Content -->
+<div class="center" style="flex:1;">
+
+<div class="login-box">
+
+<h2><font color="white">Student Registration</font></h2>
+
+<form action="register.php" method="POST">
+
+<input type="text"
+name="roll_no"
+placeholder="Enter Roll Number"
+required>
+
+<input type="text"
+name="username"
+placeholder="Enter Username"
+required>
+
+<input type="text"
+name="branch"
+placeholder="Enter Branch"
+required>
+
+<input type="password"
+name="password"
+placeholder="Enter Password"
+required>
+
+<input type="password"
+name="confirm_password"
+placeholder="Confirm Password"
+required>
+<a href="login.html">
+<button type="submit">Register</button></a>
+
+<a href="login.html">
+<button type="button" class="admin-btn">Back to Login</button>
+</a>
+
+</form>
+
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
